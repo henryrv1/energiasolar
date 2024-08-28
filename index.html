@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La vida brilla</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="carousel.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo Energía del Sol para Todos" class="logo-img">
+            </div>
+            <ul>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#how-it-works">Cómo Funciona</a></li>
+                <li><a href="#get-involved">Participa</a></li>
+                <li><a href="#projects">Beneficios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img src="images/slide1.jpg" alt="Energía Solar">
+                <div class="carousel-content">
+                    <h2>Ilumina el Futuro con Energía Solar</h2>
+                    <p>Únete a nuestra campaña de información.</p>
+                    <a href="#get-involved" class="btn">Únete a la Campaña</a>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/slide2.jpg" alt="Paneles Solares">
+                <div class="carousel-content">
+                    <h2>Transforma la Energía del Sol</h2>
+                    <p>Apoya la instalación de paneles solares en comunidades.</p>
+                    <a href="#projects" class="btn">Explora nuestros proyectos</a>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/slide3.jpg" alt="Participa">
+                <div class="carousel-content">
+                    <h2>Participa en la Revolución Energética</h2>
+                    <p>Tu apoyo hace la diferencia.</p>
+                    <a href="#get-involved" class="btn">Haz una Donación</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-prev">&#10094;</button>
+        <button class="carousel-next">&#10095;</button>
+    </section>
+    
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Acerca de la Campaña</h2>
+            <p>"Energía del Sol para Todos" es una iniciativa dedicada a promover el uso de energía solar en comunidades vulnerables. Nuestro objetivo es instalar sistemas solares que proporcionen energía limpia y sostenible.</p>
+            <center><img src="images/about-us.jpg" alt="Instalación de paneles solares" class="section-img"></center>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="section bg-light">
+        <div class="container">
+            <h2>Cómo Funciona</h2>
+            <div class="steps">
+                <div class="step">
+                    <h3>Paso 1</h3>
+                    <p>Los paneles solares recogen la luz solar.</p>
+                    <img src="images/Working principle-01.jpg" alt="Recolección" class="step-img">
+                </div>
+                <div class="step">
+                    <h3>Paso 2</h3>
+                    <p>Los inversores convierten la energía solar en electricidad utilizable.</p>
+                    <img src="images/Working principle-02.jpg" alt="Identificación de comunidades" class="step-img">
+                </div>
+                <div class="step">
+                    <h3>Paso 3</h3>
+                    <p>El exceso de electricidad se puede guardar en una batería o devolverse a la red eléctrica pública.</p>
+                    <img src="images/Working principle-03.jpg" alt="Instalación de sistemas solares" class="step-img">
+                </div>
+                <!--<div class="step">
+                    <h3>Paso 4</h3>
+                    <p>Se puede adquirir energía eléctrica de la red pública si necesita más energía de la que sus paneles solares pueden generar.</p>
+                    <img src="images/Working principle-04.jpg" alt="Instalación de sistemas solares" class="step-img">
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="get-involved" class="section">
+        <div class="container">
+            <h2>Haz parte de la diferencia</h2>
+
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2>Beneficios</h2>
+            <div class="projects-gallery">
+                <div class="project-item">
+                    <h3>Es inagotable y se renueva</h3>
+                    <p>Al diferencia que las fuentes tradicionales de energía como el carbón, el gas, el petróleo o la energía nuclear, cuyas reservas son finitas, la energía del sol está disponible en todo el mundo y se adapta a los ciclos naturales. Por ello son un elemento esencial de un sistema energético sostenible que permite el desarrollo presente sin poner en riesgo el de las futuras generaciones.</p>
+                </div>
+                <div class="project-item">
+                    <h3>No contaminante</h3>
+                    <p>De todas estas ventajas, es importante destacar que la energía solar no emite sustancias tóxicas ni contaminantes del aire, que pueden ser muy perjudiciales para el medio ambiente y el ser humano. Las sustancias tóxicas pueden acidificar los ecosistemas terrestres y acuáticos, y corroer edificios.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Tienes preguntas o quieres colaborar? Contáctanos a través del siguiente formulario:</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Energía del Sol para Todos. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#"><img src="images/facebook_5968764.png" alt="Facebook"></a>
+                <a href="#"><img src="images/twitter-alt-circle_12107562.png" alt="Twitter"></a>
+                <a href="#"><img src="images/instagram_4494488.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
